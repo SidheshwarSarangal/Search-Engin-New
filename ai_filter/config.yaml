@@ -1,0 +1,5 @@
+model:  gemma3:1b
+input_path: ../crawler/output/collected_links.json
+output_path: output/filtered_data.json
+
+

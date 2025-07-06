@@ -1,0 +1,5 @@
+fastapi
+uvicorn
+elasticsearch
+pymongo
+opensearch-py
