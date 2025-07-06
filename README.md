@@ -1,8 +1,5 @@
 ﻿# Search Engine for Blogs and Articles.
-This project is done under GDSC @IIT Roorkee. The problem statement was to create a search engine which only shows good and useful personal blogs and article. There should be no course selling pages, advertisement pages or any generic advice pages. The team members are - 
-- Sidheshwar Sarangal
-- Gamit Krupal
-- Ayan
+This project is done under GDSC @IIT Roorkee. The problem statement was to create a search engine which only shows good and useful personal blogs and article. There should be no course selling pages, advertisement pages or any generic advice pages. 
 ---
 ## Description
 The project uses the crawler to crawl over the internet and collect the links. The AI-filter then marks the relevant links and py=ut their title, summery, etc. Then this is pushed to mongodb. After this, the data pushed to mongodb is then indexed. I am using elastic search for this. The backend will run the backend to search from the indexed data and the frontend will allow the user to intect with the browser.
